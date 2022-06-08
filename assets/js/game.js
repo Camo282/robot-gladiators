@@ -90,6 +90,10 @@ var fight = function(enemyName) {
       break;
     } else {
       window.alert(playerName + ' still has ' + playerHealth + ' health left.');
+    } 
+    else {
+      window.alert("You have lost your robot in battle! Game Over!");
+      break;
     }
   } // end of while loop
 }; // end of fight function
